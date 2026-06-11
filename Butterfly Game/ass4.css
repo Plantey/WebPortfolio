@@ -1,0 +1,8 @@
+body {margin:auto;
+width: 90%;
+text-align: center;
+background-color: gainsboro;
+}
+h1 {color: darkgreen;}
+p {color: darkgreen;}
+canvas {cursor: none;} /*citation three here!*/

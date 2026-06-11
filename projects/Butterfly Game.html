@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <title>Josh Plante's Web Portfolio - Butterfly Game</title>
+    <!-- LINK TO SHARED CSS: Note the ../ to jump out of the 'projects' folder -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BACK TO HOME -->
+    <p><a href="../index.html">← Back to Home</a></p>
+
+    <header>
+        <h1>Butterfly Game</h1>
+        <h3>Year: 2025 | Medium: Video Game</h3>
+    </header>
+
+    <main>
+        <!-- TEXT SECTION -->
+        <section>
+            <h4>Project Summary</h4>
+
+            <p>The Butterfly Game was created as my final project for my Introduction to Coding & Computer Science class. It is a webpage that runs a simple javascript game.</p>
+            <p>The player controls a butterfly with their mouse, and uses space to match the colour of balls moving around the screen. There are coloured bars that move up from the bottom of the screen threatening to squish the player, unless they can match its colour and successfully pass through.</p>
+            
+        </section>
+
+        <section>
+            <h4>Project Link and Player</h4>
+            <p><a href="../Butterfly Game/ass4.html" target="_blank">Click here</a> to open and play the Butterfly Game in a new tab. You can also view the step-by-step progression made to the javascript file here too.</p>
+            <h5>Play just the game below!</h5>
+
+            <div class="video-item">
+                <!-- The game draws inside this element -->
+                <canvas id="canvas"></canvas> 
+                
+                <h5>Intructions</h5>
+                <ul>
+                    <li><p>1. Use the [mouse/trackpad] to fly  the butterfly around the canvas.</p></li>
+                    <li><p>2. When over a circle, use the [spacebar] to match its colour.</p></li>
+                    <li><p>3. Match the colour of the rising bar to destroy it and increase your score.</p></li>
+                    <li><p>4. The better your score, the more challenging the game will become! Good luck!</p></li>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        
+        <!-- IMAGE SECTION -->
+        <section>
+            <h4>Images</h4>
+            <!-- Note: ../assets/ looks inside your assets folder -->
+             <p>Click on any image to view it fullscreen in a new tab.</p>
+
+            <div class="responsive-gallery">
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_4_top_webpage.jpg">
+                    <img src="../assets/butt_4_top_webpage.jpg" alt="Screenshot of gameplay(3) + aiming/highlighting/grabbing system">
+                    </a>
+                    <div class="desc">Top of the webpage: explains what the game is, and provides rules and controls.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_3_documentation_citation.jpg">
+                    <img src="../assets/butt_3_documentation_citation.jpg" alt="Screenshot of gameplay(2)">
+                    </a>
+                    <div class="desc">The webpage includes in-depth code progression documentation. And proper citations for my work.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_2.jpg">
+                    <img src="../assets/butt_2.jpg" alt="Screenshot of gameplay">
+                    </a>
+                    <div class="desc">Screenshot of gameplay</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_1.jpg">
+                    <img src="../assets/butt_1.jpg" alt="The game over screen. Refresh to play again.">
+                    </a>
+                    <div class="desc">The game over screen. Refresh to play again.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_5.jpg">
+                    <img src="../assets/butt_5.jpg" alt="Screenshot of gameplay(4) + pause menu and controls">
+                    </a>
+                    <div class="desc">Beginning of code. Project goals.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_6.jpg">
+                    <img src="../assets/butt_6.jpg" alt="Structure of executable code.">
+                    </a>
+                    <div class="desc">Structure of executable code</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/butt_7.jpg">
+                    <img src="../assets/butt_7.jpg" alt="Debugging">
+                    </a>
+                    <div class="desc">Rectangle spawning function. Describes the challenge in the game, and gets harder over time.</div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="../index.html">← Back to Home</a></p>
+    </footer>
+
+    <!-- Link to the game logic -->
+    <script src="../Butterfly Game/ass4.js"></script>
+
+
+</body>
+</html>

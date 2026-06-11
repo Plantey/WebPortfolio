@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="ass4.css">
+    </head>
+    <body>
+        <h1>Assignment #4: Interactive Artwork - Butterfly Game - Josh Plante</h1>
+        <p>You are a butterfly! Stay alive and earn points by breaking the coloured bars that threaten to smush you against the ceiling!<br> Tip: try and fly above the coloured bars as they come at you. If a coloured bar reaches the ceiling, the game will end.</p>
+        <p>1. Use the [mouse/trackpad] to fly  the butterfly around the canvas. </p>
+        <p>2. When over a circle, use the [spacebar] to match its colour.</p>
+        <p>3. Match the colour of the rising bar to destroy it and increase your score. </p>
+        <p>4. The better your score, the more challenging the game will become! Good luck! </p>
+
+        <canvas id="canvas"></canvas>
+
+        <h1>Documentation</h1>
+        <a href="ass4_1.js">ass4_1.js - inital files and functions, project breakdown at top of code</a>
+        <br>
+        <a href="ass4_2.js">ass4_2.js - getColour function, applied to butterfly</a>
+        <br>
+        <a href="ass4_3.js">ass4_3.js - step one completed</a>
+        <br>
+        <a href="ass4_4.js">ass4_4.js - step two completed, generating multiple shapes using create data function and array, plus unique circle toriod function</a>
+        <br>
+        <a href="ass4_5.js">ass4_5.js - working o step 2.5, butterly and circle collision, butterfly eats circles</a>
+        <br>
+        <a href="ass4_6.js">ass4_6.js - done step 2.5, butterfly changes colours to match the circle its colliding with</a>
+        <br>
+        <a href="ass4_7.js">ass4_7.js - used event.preventDefault to prevent spacebar from scrolling players on the screen</a>
+        <br>
+        <a href="ass4_8.js">ass4_8.js - working on step 3, rect array and animation, beginning collision function creation for rects</a>
+        <br>
+        <a href="ass4_9.js">ass4_9.js - developing rect collision function. and console.log scoring system</a>
+        <br>
+        <a href="ass4_10.js">ass4_10.js - step 3 done, rect collision function, scoring, updated html format and text</a>
+        <br>
+        <a href="ass4_11.js">ass4_11.js - spawnRects() function updated and now spawns rectangles faster as the player gains score</a>
+        <br>
+        <a href="ass4_12.js">ass4_12.js - code cleanup before final additions. planning for game over screen plus score display</a>
+        <br>
+        <a href="ass4_13.js">ass4_13.js - code cleanup, added score display, added game over function</a>
+        <br>
+        <a href="ass4_14.js">ass4_14.js - final code. updated gameOver() function, streamlined console.logs with final stop all collision function to run through my arrays</a>
+        <br>
+        <h1>Citations</h1>
+        <a href="https://www.youtube.com/shorts/gOcvwWEP-i4">randomly indexing and returning array elements</a>
+        <br>
+        <a href="https://stackoverflow.com/questions/22559830/html-prevent-space-bar-from-scrolling-page">used two line from the answer. event.target and event.preventDeault function. used to disable space auto page scroling for my game</a>
+        <br>
+        <a href="https://stackoverflow.com/questions/6892502/hide-mouse-cursor-when-its-within-html5-canvas-javascript">css line to hide mouse cursor when hovering over canvas element of page, useful for my game</a>
+        <br>
+        <a href="https://javascript.info/settimeout-setinterval">setTimeout nested functions, spawnRects, used to change from setInterval to allow for gameSpeed variable to increase speed of rect generation </a>
+        <br>
+        <a href="https://www.w3schools.com/graphics/canvas_text.asp">used for drawScore() function, and for gameover </a>
+        <br>
+        <a href="https://www.w3schools.com/tags/canvas_filltext.asp">used for drawScore() function, and for gameover, font styles </a>
+        <br>
+        <br>
+        <p>*Trouble telling apart different shades of a colour? Try squinting your eyes!*</p>
+        <p>---*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*------*||*---</p>
+        <script src="ass4.js">
+        </script>
+    </body>
+</html>

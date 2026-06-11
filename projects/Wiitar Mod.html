@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>Josh Plante's Web Portfolio - Wiitar Mod</title>
+    <!-- LINK TO SHARED CSS: Note the ../ to jump out of the 'projects' folder -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BACK TO HOME -->
+    <p><a href="../index.html">← Back to Home</a></p>
+
+    <header>
+        <h1>Wiitar Mod</h1>
+        <h3>Year: 2025 | Medium: Physical Computing, Interactive Sculpture</h3>
+    </header>
+
+    <main>
+        <!-- TEXT SECTION -->
+        <section>
+            <h4>Project Summary</h4>
+                <p>The Wiitar Mod was created as a piece for my physical computing class. I had worked with the Red Octane Guitar Hero controllers for previous projects, <a href="CloneZero.html">(see CloneZero)</a> so this was a natural extension for me. By researching and taking apart the controller, I attempted to hack it into something like a kids toy that plays music; think the <a target="_blank" href="../assets/3_catpiano.jpg">Cat Piano</a>, or something like it. </p>
+
+                <p>I created manual switches using copper wire, which were taped lower in the guitar's neck, then wired to the on-board arduino; the manual switches are activated using a custom sewn glove with conductive fabric. The guitar's Whammy Bar was desoldered, and rewired through the guitar into the arduino as well. Lastly a piezo-electric speaker was wired to the arduino as well, and nested into the empty Wiimote socket. I used command strips to mount the arduino and breadboard onto the face of the guitar. To power the mod, I hid a 9V battery inside the guitar, and wired the connection to the arduino by replacing the Wiimote connector wire with my power supply wire. See photos at the bottom of the page.</p>
+
+                <p>Unfortunately, the piezo-electric speaker proved to be an insufficent method for the complex sound I wanted to get from the guitars many controls. I would love to update this project in the future.</p>
+        </section>
+
+        <!-- VIDEO SECTION -->
+        <section class="video-gallery">
+            <h4>Project Videos</h4>
+
+            <div class="video-item">
+                <p><strong>Wiitar Mod Circut Demo Video</strong></p>
+                <p>A demonstration of the Wiitar Mod's circuit and physical layout.</p>
+                <video controls controlsList="nodownload">
+                <source src="../assets/wiitar_circuit_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <p><strong>Wiitar Mod Supplimentary Video</strong></p>
+                <p>A demonstration of the Wiitar Mod's whammy bar working with an LED.</p>
+                <video controls controlsList="nodownload">
+                <source src="../assets/wiitar circuit video_supplementary.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <p><strong>Wiitar Mod Glove Demonstration Video</strong></p>
+                <p>A demonstation of how the neck buttons were modified with copper tape into switches. It also shows how the conductive fabric glove is used to activate the switches; which in this early prototype, are wired to LEDs in my breadboard.</p>
+                <video controls controlsList="nodownload">
+                <source src="../assets/wiitar_glove_demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+             
+        <!-- IMAGE SECTION -->
+        <section>
+            <h4>Images</h4>
+            <!-- Note: ../assets/ looks inside your assets folder -->
+             <p>Click on any image to view it fullscreen in a new tab.</p>
+
+            <div class="responsive-gallery">
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_circuit_flowchart_josh_plante.jpg">
+                    <img src="../assets/wiitar_circuit_flowchart_josh_plante.jpg" alt="This is the circuit flowchart diagram for the Wiitar Mod. Here you can see the project structure, I had originally wanted for each coloured button to have a different tone, with the goal of creating chords.">
+                    </a>
+                    <div class="desc">This is the circuit flowchart diagram for the Wiitar Mod. Here you can see the project structure, I had originally wanted for each coloured button to have a different tone, with the goal of creating chords.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_display.jpg">
+                    <img src="../assets/wiitar_display.jpg" alt="Display of the entire Wiitar Mod, custom sewn and painted (with friends) guitar strap, and the conductive gloves that make it work.">
+                    </a>
+                    <div class="desc">Display of the entire Wiitar Mod, custom sewn and painted (with friends) guitar strap, and the conductive gloves that make it work.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_mod_crop.jpg">
+                    <img src="../assets/wiitar_mod_crop.jpg" alt="A photo of just the Wiitar Mod.">
+                    </a>
+                    <div class="desc">A photo of just the Wiitar Mod</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_setup_buttons.jpg">
+                    <img src="../assets/wiitar_setup_buttons.jpg" alt="The switch setup used for the coloured neck buttons. Worked in tandem with the conductive glove.">
+                    </a>
+                    <div class="desc">The switch setup used for the coloured neck buttons. Worked in tandem with the conductive glove.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_TinkerCAD.jpg">
+                    <img src="../assets/wiitar_TinkerCAD.jpg" alt="A replication of the circuit using TinkerCAD. Here the coloured neck buttons are represented by push buttons.">
+                    </a>
+                    <div class="desc">A replication of the circuit using TinkerCAD. Here the coloured neck buttons are represented by push buttons. The potentiometer represents the Whammy Bar.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_insides.jpg">
+                    <img src="../assets/wiitar_insides.jpg" alt="Photo of the inside of the Wiitar. The gray wires leaving the unit to the right is the desoldered Whammy Bar.">
+                    </a>
+                    <div class="desc">Photo of the inside of the Wiitar. The gray wires leaving the unit to the right is the desoldered Whammy Bar.</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="../assets/wiitar_inside_2.jpg">
+                    <img src="../assets/wiitar_inside_2.jpg" alt="Photo of the inside of the Wiitar. The gray wires leaving the unit to the right is the desoldered Whammy Bar.">
+                    </a>
+                    <div class="desc">An extension to the Whammy Bar wires was soldered on to increase its length to reach the breadboard on the face of the unit. You can see this on thr right, where the gray wires meet the black and green wires.</div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="../index.html">← Back to Home</a></p>
+    </footer>
+
+</body>
+</html>
